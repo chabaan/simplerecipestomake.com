@@ -1,0 +1,59 @@
+---
+title: "Simple Blackstone Camping Smash Burgers"
+meta: "Learn how to make juicy Blackstone camping smash burgers with a crispy crust. Get the exact timing, heat setting, and smash technique for campfire success."
+category: "Camp Meals"
+author: "Alisia Redson"
+image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/simple-blackstone-camping-smash-burgers.webp"
+pubDate: "2026-07-30T20:26:00Z"
+recipe: "{\"title\": \"Blackstone Camping Smash Burgers\", \"ingredients\": [\"1 lb 450g ground beef (80/20 blend)\", \"1 tsp kosher salt\", \"1/2 tsp black pepper (freshly ground)\", \"4 slices American cheese or cheddar\", \"4 soft burger buns (split)\", \"Butter (softened (for buns))\", \"Optional toppings: lettuce (tomato slices, pickles, ketchup, mustard, caramelized onions)\"], \"instructions\": [\"Divide ground beef into 4 equal portions (4 oz each). Shape each into a loose ball. Do not press or compact. Season all sides with salt and pepper.\", \"Preheat Blackstone griddle over medium-high heat (about 400°F / 200°C). Let surface heat for 5 minutes. A drop of water should sizzle and evaporate instantly.\", \"Place burger balls on the hot griddle, spaced at least 3 inches apart. Immediately place a square of parchment paper over each ball and smash flat using a sturdy spatula. Press down firmly for 10 seconds until the patty is about 1/4-inch thick. Remove parchment.\", \"Cook for 3 minutes without moving. The edges will turn brown and a dark crust will form. The patty should release easily from the griddle — if it sticks, it needs another 30 seconds.\", \"Flip each patty using a thin metal spatula, scraping up all the crispy bits. Place a slice of cheese on each patty immediately after flipping.\", \"Meanwhile, butter the cut sides of the buns and toast them on a cooler section of the griddle (or in a cast iron skillet nearby) for about 1 minute, until golden.\", \"Cook patties for another 2 minutes for medium, or until internal temperature reaches 160°F (71°C) for safety. Remove patties and assemble burgers on toasted buns with desired toppings. Serve immediately.\"], \"equipment\": [\"Blackstone griddle or flat-top grill\", \"propane burner\", \"metal spatula (thin\", \"rigid)\", \"parchment paper squares (optional)\", \"instant-read thermometer\", \"large bowl\", \"tongs\", \"heatproof gloves\"], \"servings\": \"4\", \"prep_time\": \"10\", \"cook_time\": \"8\", \"total_time\": \"18\", \"calories\": \"420\"}"
+---
+
+<p>The first time I tried making smash burgers on a Blackstone at a campsite, I learned something fast: heat is everything. Too low and the patty steams instead of searing. Too high and the outside burns before the inside cooks. But when you hit that sweet spot — around 400°F on the griddle surface — the magic happens. The beef hisses on contact, the edges turn brown and lacy, and a dark crust forms that locks in every bit of juice. This method gives you a thin, crispy patty with a tender center, all in about 8 minutes. No flipping through flames, no flare-ups. Just a flat, hot surface and a steady hand.</p>
+<figure><img src="https://cdn.midjourney.com/d533f688-ce83-493e-a4b2-95918c294092/0_0.png" alt="A metal spatula pressing a ball of ground beef flat on a hot Blackstone griddle at a campsite." /></figure>
+
+<h2>Why the Blackstone Works for Camping Smash Burgers</h2>
+<p>A Blackstone griddle (or any flat-top grill) gives you two big advantages at a campsite: even heat distribution and a large cooking surface. You can cook all four patties at once, plus toast the buns, without juggling pans. The flat surface also means you can scrape up every bit of browned crust — that's where the flavor lives. If you're using a camp stove or a campfire with a cast iron skillet, the same technique applies. Just adjust your heat source so the pan is hot but not smoking.</p>
+<h2>Choosing the Right Ground Beef</h2>
+<p>I keep the ratio at 80/20 — 80% lean, 20% fat. That fat renders out during cooking, creating the crispy edges and keeping the patty moist. Leaner blends like 90/10 will give you a drier burger with less browning. If you're watching fat intake, you can still use 85/15, but expect a slightly less crunchy crust. For food safety, keep raw beef in a cooler below 40°F (4°C) until you're ready to cook. Never leave it out in warm weather for more than an hour.</p>
+<h2>The Smash Technique: Step by Step</h2>
+<p>Here's the method I rely on every time. Start with 4-ounce balls of beef — loosely shaped, not packed tight. Season generously with salt and pepper just before cooking. Preheat your Blackstone on medium-high for a full 5 minutes. You want the surface hot enough that a drop of water sizzles and evaporates in a second.</p>
+<p>Place the balls on the griddle, spaced apart. Lay a square of parchment paper over each ball (this keeps the spatula from sticking). Using a thin metal spatula, press down hard and flat for a full 10 seconds — aim for a patty about 1/4-inch thick. Remove the parchment. Now leave them alone. Do not move, poke, or check. Let them cook for exactly 3 minutes. The edges will turn deep brown and the patty will release from the surface easily when it's ready to flip. If it sticks, give it 30 more seconds.</p>
+<p>Flip each patty with a firm scrape of the spatula, lifting all those browned bits. Immediately add a slice of cheese. Cook for another 2 minutes for a medium doneness. For safety, the internal temperature should reach 160°F (71°C). While the patties finish, butter the buns and toast them on a cooler part of the griddle for about a minute, until golden.</p>
+<h3>Common Mistake: Overcrowding</h3>
+<p>Don't try to cook more than four patties at once on a standard 17-inch Blackstone. Overcrowding drops the surface temperature, and the meat steams instead of searing. Give each patty room to breathe. If you're cooking for a larger group, work in batches and keep the finished patties warm in a foil packet near the fire.</p>
+<h2>Adapting for a Campfire or Camp Stove</h2>
+<p>No Blackstone? No problem. A cast iron skillet or a flat griddle over a campfire grate works just as well. Build a hot bed of coals (not open flames) and let the pan heat for 5 minutes. The key is maintaining a consistent temperature — move the pan closer to the coals for more heat, farther away to cool down. On a camp stove, use medium-high heat and preheat the pan for 3 minutes before adding the meat.</p>
+<h2>Toppings and Sides</h2>
+<p>Keep toppings simple at the campsite. Sliced onion, lettuce, tomato, pickles, ketchup, and mustard all hold up well without refrigeration. For a warm side, try campfire foil packet vegetables or easy skillet potatoes. The burgers themselves are the star — let them be.</p>
+<h2>Takeaway</h2>
+<p>A great smash burger at a campsite comes down to three things: hot surface, loose meat balls, and patience during the sear. Once you nail that crust, everything else falls into place. Whether you're on a Blackstone, a camp stove, or a grate over coals, this method delivers a burger that's crispy, juicy, and satisfying. No fuss, no fancy tools — just good technique and a little practice.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Can I make smash burgers on a campfire instead of a Blackstone?</h3>
+<p>Yes. Use a cast iron skillet or a flat griddle over a campfire grate. Build a hot bed of coals (not flames) and let the pan heat for 5 minutes. The technique is the same: smash the ball flat, cook 3 minutes per side, and adjust heat by moving the pan closer to or farther from the coals.</p>
+<h3>What's the best ground beef ratio for smash burgers?</h3>
+<p>80/20 (80% lean, 20% fat) is ideal. The fat creates the crispy crust and keeps the patty juicy. Leaner blends like 90/10 will dry out and won't brown as well.</p>
+<h3>How do I keep the patties from sticking to the griddle?</h3>
+<p>Make sure the griddle is fully preheated (400°F). Use a thin metal spatula, not a plastic one. When smashing, use parchment paper between the spatula and meat to prevent sticking. After the first flip, scrape up all browned bits — they add flavor.</p>
+<h3>Can I prep smash burgers at home before camping?</h3>
+<p>Yes. Form the beef into balls and place them on a parchment-lined baking sheet in a single layer. Freeze for 1 hour until firm, then transfer to a freezer bag. Keep frozen in a cooler with ice packs. Cook from frozen — just add 1 extra minute per side.</p>
+
+
+<!--WPRM Recipe 201-->
+<div class="wprm-fallback-recipe">
+	<h2 class="wprm-fallback-recipe-name">Blackstone Camping Smash Burgers</h2>
+	<img class="wprm-fallback-recipe-image" src="https://simplerecipestomake.com/wp-content/uploads/2026/07/simple-blackstone-camping-smash-burgers-150x150.webp"/>	<p class="wprm-fallback-recipe-summary">
+		Thin, crispy-edged smash burgers cooked on a Blackstone griddle at the campsite. Simple ingredients, big flavor, and a reliable method for outdoor cooking.	</p>
+	<div class="wprm-fallback-recipe-equipment">
+		<ul><li>Blackstone griddle or flat-top grill</li><li>propane burner</li><li>metal spatula (thin</li><li>rigid)</li><li>parchment paper squares (optional)</li><li>instant-read thermometer</li><li>large bowl</li><li>tongs</li><li>heatproof gloves</li></ul>	</div>
+	<div class="wprm-fallback-recipe-ingredients">
+		<ul><li>1 lb 450g ground beef (80/20 blend)</li><li>1 tsp kosher salt</li><li>1/2 tsp black pepper (freshly ground)</li><li>4 slices American cheese or cheddar</li><li>4 soft burger buns (split)</li><li>Butter (softened (for buns))</li><li>Optional toppings: lettuce (tomato slices, pickles, ketchup, mustard, caramelized onions)</li></ul>	</div>
+	<div class="wprm-fallback-recipe-instructions">
+		<ol><li>Divide ground beef into 4 equal portions (4 oz each). Shape each into a loose ball. Do not press or compact. Season all sides with salt and pepper.</li><li>Preheat Blackstone griddle over medium-high heat (about 400°F / 200°C). Let surface heat for 5 minutes. A drop of water should sizzle and evaporate instantly.</li><li>Place burger balls on the hot griddle, spaced at least 3 inches apart. Immediately place a square of parchment paper over each ball and smash flat using a sturdy spatula. Press down firmly for 10 seconds until the patty is about 1/4-inch thick. Remove parchment.</li><li>Cook for 3 minutes without moving. The edges will turn brown and a dark crust will form. The patty should release easily from the griddle — if it sticks, it needs another 30 seconds.</li><li>Flip each patty using a thin metal spatula, scraping up all the crispy bits. Place a slice of cheese on each patty immediately after flipping.</li><li>Meanwhile, butter the cut sides of the buns and toast them on a cooler section of the griddle (or in a cast iron skillet nearby) for about 1 minute, until golden.</li><li>Cook patties for another 2 minutes for medium, or until internal temperature reaches 160°F (71°C) for safety. Remove patties and assemble burgers on toasted buns with desired toppings. Serve immediately.</li></ol>	</div>
+	<div class="wprm-fallback-recipe-notes">
+		<p>Storage: Cooked patties keep in a cooler for up to 2 days. Reheat on griddle or in a skillet. Food safety: Keep raw beef in a cooler below 40°F (4°C). Cook to 160°F (71°C). Do not leave assembled burgers out for more than 1 hour in warm weather. Allergen note: Contains dairy (cheese, butter) and gluten (buns). For dairy-free, use vegan cheese or skip cheese. For gluten-free, use gluten-free buns or lettuce wraps. For specific dietary needs, consult a qualified professional.</p>
+	</div>
+	<div class="wprm-fallback-recipe-meta">
+		<div class="wprm-fallback-recipe-meta-course">Dinner</div><div class="wprm-fallback-recipe-meta-cuisine">American</div>	</div>
+</div>
+<!--End WPRM Recipe-->
