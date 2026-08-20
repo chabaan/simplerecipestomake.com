@@ -3,7 +3,7 @@ title: "Make Ahead Camping Burrito Bowls: No Fuss, No Fridge"
 meta: "Learn to make ahead camping burrito bowls with no fridge needed. Packable, safe, and full of flavor for your next trip."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/make-ahead-camping-burrito-bowls-no-fuss.webp"
+image: "/images/make-ahead-camping-burrito-bowls-no-fuss-no-fridge.webp"
 pubDate: "2026-07-11T05:50:00Z"
 ---
 

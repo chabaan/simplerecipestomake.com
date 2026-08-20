@@ -3,7 +3,7 @@ title: "Crowd-Pleasing Camping Breakfast Sandwiches: Make-Ahead Method"
 meta: "Make crowd-pleasing camping breakfast sandwiches ahead of time with no fridge needed. Get my exact foil-packet method for fluffy eggs and crispy bacon."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/crowd-pleasing-camping-breakfast-sandwic.webp"
+image: "/images/crowd-pleasing-camping-breakfast-sandwiches-make-ahead-method.webp"
 pubDate: "2026-07-15T17:24:00Z"
 ---
 

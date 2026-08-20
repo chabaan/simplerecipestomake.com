@@ -3,7 +3,7 @@ title: "Backcountry Campfire Kielbasa Foil Packets: Smoky, Simple Dinner"
 meta: "Learn the technique for making backcountry campfire kielbasa foil packets with potatoes and peppers. Exact coals, timing, and doneness cues for a no-fuss camp d"
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/backcountry-campfire-kielbasa-foil-packe.webp"
+image: "/images/backcountry-campfire-kielbasa-foil-packets-smoky-simple-dinner.webp"
 pubDate: "2026-07-21T15:54:00Z"
 ---
 

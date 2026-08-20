@@ -3,7 +3,7 @@ title: "No Fridge Camping Dinner Ideas That Actually Work Over Fire"
 meta: "Crowd-pleasing no fridge camping dinner ideas for campfire cooking. Foil packets, shelf-stable ingredients, and timing tips for hot coals."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/no-fridge-camping-dinner-ideas-that-actu.webp"
+image: "/images/no-fridge-camping-dinner-ideas-that-actually-work-over-fire.webp"
 pubDate: "2026-07-17T16:28:00Z"
 ---
 

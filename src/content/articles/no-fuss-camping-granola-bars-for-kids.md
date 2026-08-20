@@ -3,7 +3,7 @@ title: "No-Fuss Camping Granola Bars for Kids"
 meta: "Make these no-fuss camping granola bars for kids with a chewy, nutty texture. Perfect make-ahead camp snack with easy campfire or stove method."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/no-fuss-camping-granola-bars-for-kids.webp"
+image: "/images/no-fuss-camping-granola-bars-for-kids.webp"
 pubDate: "2026-07-12T15:38:00Z"
 ---
 

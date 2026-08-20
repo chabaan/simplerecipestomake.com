@@ -3,7 +3,7 @@ title: "Simple Vegan Make Ahead Camping Dinner"
 meta: "A simple vegan make ahead camping dinner that travels without a cooler. Packable, no-fuss, and full of flavor."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/simple-vegan-make-ahead-camping-dinner.webp"
+image: "/images/simple-vegan-make-ahead-camping-dinner.webp"
 pubDate: "2026-07-21T15:37:00Z"
 ---
 

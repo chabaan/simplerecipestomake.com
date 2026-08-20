@@ -3,7 +3,7 @@ title: "Simple Kids Camping Lunch Box Ideas That Actually Work"
 meta: "Simple kids camping lunch box ideas that keep food cold, stay fun, and don't create extra mess. Packable meals for active families."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/simple-kids-camping-lunch-box-ideas-that.webp"
+image: "/images/simple-kids-camping-lunch-box-ideas-that-actually-work.webp"
 pubDate: "2026-07-22T21:40:00Z"
 ---
 

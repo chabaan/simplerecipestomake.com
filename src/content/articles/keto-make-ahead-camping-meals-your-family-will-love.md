@@ -3,7 +3,7 @@ title: "Keto Make Ahead Camping Meals Your Family Will Love"
 meta: "Easy keto make ahead camping meals for family trips. Prep these low-carb foil packets, skillet dinners, and no-cook lunches at home."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/keto-make-ahead-camping-meals-your-famil.webp"
+image: "/images/keto-make-ahead-camping-meals-your-family-will-love.webp"
 pubDate: "2026-07-24T03:16:00Z"
 ---
 

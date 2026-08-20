@@ -3,7 +3,7 @@ title: "5-Ingredient No Refrigeration Camping Wraps That Stay Fresh"
 meta: "Make 5-ingredient no refrigeration camping wraps with shelf-stable ingredients. Pack them for the trail without a cooler. Food-safe method included."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/5-ingredient-no-refrigeration-camping-wr.webp"
+image: "/images/5-ingredient-no-refrigeration-camping-wraps-that-stay-fresh.webp"
 pubDate: "2026-07-19T15:21:00Z"
 ---
 

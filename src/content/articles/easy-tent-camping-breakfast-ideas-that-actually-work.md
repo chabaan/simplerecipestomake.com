@@ -3,7 +3,7 @@ title: "Easy Tent Camping Breakfast Ideas That Actually Work"
 meta: "Easy tent camping breakfast ideas that are quick, filling, and kid-friendly. Get my no-fuss method for perfect campfire eggs and bacon."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/easy-tent-camping-breakfast-ideas-that-a-3.webp"
+image: "/images/easy-tent-camping-breakfast-ideas-that-actually-work.webp"
 pubDate: "2026-07-04T21:05:00Z"
 ---
 

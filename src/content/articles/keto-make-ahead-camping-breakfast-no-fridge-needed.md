@@ -3,7 +3,7 @@ title: "Keto Make Ahead Camping Breakfast: No Fridge Needed"
 meta: "Keto make ahead camping breakfast ideas that don't need a fridge. Learn technique for packable, high-fat, low-carb meals for the trail."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/keto-make-ahead-camping-breakfast-no-fri.webp"
+image: "/images/keto-make-ahead-camping-breakfast-no-fridge-needed.webp"
 pubDate: "2026-07-14T15:37:00Z"
 ---
 

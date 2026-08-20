@@ -3,7 +3,7 @@ title: "Make-Ahead Grilled Camping Steak Foil Packets"
 meta: "Learn how to make tender steak foil packets for camping with a simple marinade, exact cook times, and fire-safe technique."
 category: "Camp Meals"
 author: "Alisia Redson"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/make-ahead-grilled-camping-steak-foil-pa.webp"
+image: "/images/make-ahead-grilled-camping-steak-foil-packets.webp"
 pubDate: "2026-07-16T06:43:00Z"
 ---
 

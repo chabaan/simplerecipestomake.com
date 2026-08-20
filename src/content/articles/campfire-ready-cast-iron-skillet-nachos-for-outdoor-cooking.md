@@ -3,7 +3,7 @@ title: "Campfire-Ready Cast Iron Skillet Nachos for Outdoor Cooking"
 meta: "Learn how to make campfire-ready cast iron skillet nachos with a layered build, exact heat control, and tips to avoid sogginess. Perfect for camping."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/campfire-ready-cast-iron-skillet-nachos-.webp"
+image: "/images/campfire-ready-cast-iron-skillet-nachos-for-outdoor-cooking.webp"
 pubDate: "2026-07-22T21:54:00Z"
 ---
 

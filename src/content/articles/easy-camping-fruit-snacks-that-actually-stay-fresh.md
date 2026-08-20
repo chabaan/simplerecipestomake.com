@@ -3,7 +3,7 @@ title: "Easy Camping Fruit Snacks That Actually Stay Fresh"
 meta: "Foolproof easy camping fruit snacks that stay fresh without a cooler. Learn the simple prep trick and packing method that keeps fruit crisp for days."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/easy-camping-fruit-snacks-that-actually-.webp"
+image: "/images/easy-camping-fruit-snacks-that-actually-stay-fresh.webp"
 pubDate: "2026-07-26T02:33:00Z"
 ---
 

@@ -3,7 +3,7 @@ title: "Best Campfire Breakfast Sliders for a Crowd"
 meta: "Learn the technique for making the best campfire breakfast sliders with fluffy eggs, crispy bacon, and melty cheese in a cast iron skillet."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/best-campfire-breakfast-sliders-for-a-cr.webp"
+image: "/images/best-campfire-breakfast-sliders-for-a-crowd.webp"
 pubDate: "2026-07-20T22:18:00Z"
 ---
 

@@ -3,7 +3,7 @@ title: "Quick Camping Cracker Sandwich Snacks"
 meta: "Make quick camping cracker sandwich snacks with no-cook fillings that stay crisp. Tips for packing, ratios, and keeping them fresh at the campsite."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/quick-camping-cracker-sandwich-snacks.webp"
+image: "/images/quick-camping-cracker-sandwich-snacks.webp"
 pubDate: "2026-08-03T03:10:00Z"
 recipe: "{\"title\": \"Camping Cracker Sandwiches\", \"ingredients\": [\"8 large square or round crackers (e.g., saltines, Ritz, or whole wheat, 4 tablespoons cream cheese or hummus, 2 tablespoons jam or apple butter, 4 thin slices cheddar or turkey (optional), 1 tablespoon sunflower seeds or mini chocolate chips (optional))\"], \"instructions\": [\"If using cream cheese, let it soften at room temperature for 10 minutes so it spreads easily without tearing the cracker. 2. Lay 4 crackers flat on a clean surface. Spread each with 1 tablespoon of cream cheese or hummus, leaving a small border. 3. Add a slice of cheese or turkey, or a thin layer of jam on top of the spread. 4. Sprinkle sunflower seeds or chocolate chips over the filling if desired. 5. Top with the remaining crackers, pressing gently to seal. 6. Place the sandwiches in a single layer in a resealable container lined with a paper towel. Refrigerate in a cooler until ready to eat. 7. Serve within 2 hours of assembling for best texture.\"], \"equipment\": [\"mixing bowl\", \"butter knife\", \"resealable container or zip-top bag\", \"small cooler\"], \"servings\": \"4\", \"prep_time\": \"10\", \"cook_time\": null, \"total_time\": \"10\", \"calories\": \"280\"}"
 ---

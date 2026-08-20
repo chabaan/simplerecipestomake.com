@@ -3,7 +3,7 @@ title: "Make-Ahead Kids Camping Mini Sandwiches That Stay Fresh"
 meta: "Make-ahead kids camping mini sandwiches that stay fresh without a fridge. Packable, safe, and easy for the trail. No reheating needed."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/make-ahead-kids-camping-mini-sandwiches-.webp"
+image: "/images/make-ahead-kids-camping-mini-sandwiches-that-stay-fresh.webp"
 pubDate: "2026-07-13T02:49:00Z"
 ---
 

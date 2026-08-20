@@ -3,7 +3,7 @@ title: "Campfire Chicken Drumsticks: Crowd-Pleasing Recipe"
 meta: "Learn how to make crowd-pleasing campfire chicken drumsticks with a smoky glaze and crispy skin. Reliable timing and fire technique for the perfect campsite din"
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/campfire-chicken-drumsticks-crowd-pleasi.webp"
+image: "/images/campfire-chicken-drumsticks-crowd-pleasing-recipe.webp"
 pubDate: "2026-07-24T05:01:00Z"
 ---
 

@@ -3,7 +3,7 @@ title: "Easy Camping Yogurt Bark: Make Ahead, No Fridge Needed"
 meta: "Learn how to make easy camping yogurt bark that stays crisp without a fridge. My method uses a simple ratio and a cooler trick for the trail."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/easy-camping-yogurt-bark-make-ahead-no-f.webp"
+image: "/images/easy-camping-yogurt-bark-make-ahead-no-fridge-needed.webp"
 pubDate: "2026-07-26T03:24:00Z"
 ---
 

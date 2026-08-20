@@ -3,7 +3,7 @@ title: "No-Fuss Vegan Make Ahead Camping Snacks for Easy Outdoor Trips"
 meta: "Discover no-fuss vegan make ahead camping snacks that travel well and satisfy hunger. Easy recipes with smart tips for your next outdoor adventure."
 category: "Camp Meals"
 author: "Alisia Redson"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/no-fuss-vegan-make-ahead-camping-snacks-.webp"
+image: "/images/no-fuss-vegan-make-ahead-camping-snacks-for-easy-outdoor-trips.webp"
 pubDate: "2026-07-20T16:16:00Z"
 ---
 

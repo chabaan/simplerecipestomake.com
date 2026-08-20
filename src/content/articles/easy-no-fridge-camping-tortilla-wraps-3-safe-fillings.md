@@ -3,7 +3,7 @@ title: "Easy No Fridge Camping Tortilla Wraps: 3 Safe Fillings"
 meta: "Make-ahead tortilla wraps for camping without a fridge. 3 safe fillings that stay fresh in a cooler, plus wrapping and packing tips for the trail."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/easy-no-fridge-camping-tortilla-wraps-3-.webp"
+image: "/images/easy-no-fridge-camping-tortilla-wraps-3-safe-fillings.webp"
 pubDate: "2026-07-23T15:21:00Z"
 ---
 

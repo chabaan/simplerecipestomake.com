@@ -3,7 +3,7 @@ title: "Hearty Foil Packet Garlic Butter Shrimp"
 meta: "Learn the exact method for foil packet garlic butter shrimp at the campfire—tender shrimp, no burnt butter, perfect timing. A 20-minute camp dinner."
 category: "Camping Dinners"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/hearty-foil-packet-garlic-butter-shrimp.webp"
+image: "/images/hearty-foil-packet-garlic-butter-shrimp.webp"
 pubDate: "2026-07-14T07:05:00Z"
 ---
 

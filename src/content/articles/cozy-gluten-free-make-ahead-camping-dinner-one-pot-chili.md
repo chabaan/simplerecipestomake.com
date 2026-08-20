@@ -3,7 +3,7 @@ title: "Cozy Gluten Free Make Ahead Camping Dinner: One-Pot Chili"
 meta: "Cozy gluten free make ahead camping dinner: a hearty, no-refrigeration chili you prep at home and reheat at camp. Packable, safe, and satisfying."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/cozy-gluten-free-make-ahead-camping-dinn.webp"
+image: "/images/cozy-gluten-free-make-ahead-camping-dinner-one-pot-chili.webp"
 pubDate: "2026-07-19T22:08:00Z"
 ---
 

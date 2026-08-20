@@ -3,7 +3,7 @@ title: "Family-Favorite No Refrigeration Camping Dried Fruit Mix"
 meta: "Make a no refrigeration camping dried fruit mix that stays shelf-stable for days. My simple ratio and rehydration trick keep it chewy and safe."
 category: "Family Camping Food"
 author: "Alisia Redson"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/family-favorite-no-refrigeration-camping.webp"
+image: "/images/family-favorite-no-refrigeration-camping-dried-fruit-mix.webp"
 pubDate: "2026-08-04T04:16:00Z"
 recipe: "{\"title\": \"Family-Favorite No Refrigeration Camping Dried Fruit Mix\", \"ingredients\": [\"1 cup dried apricots (chopped)\", \"1 cup dried apple rings (chopped)\", \"1/2 cup dried mango strips (chopped)\", \"1/2 cup dried cherries\", \"1/2 cup raw sunflower seeds\", \"1/4 cup unsweetened coconut flakes\", \"1/4 teaspoon fine sea salt\", \"1/2 teaspoon ground cinnamon (optional)\"], \"instructions\": [\"In a large bowl, combine all ingredients. Toss well with your hands so the salt and cinnamon (if using) coat the fruit evenly.\", \"Divide the mix into quart-sized zip-top bags or a single airtight container. Press out as much air as possible before sealing.\", \"At camp, for a softer texture: add 2 tablespoons of cool water per serving to a bowl, stir, and let sit for 5 minutes. The fruit will rehydrate slightly without becoming mushy.\", \"Serve as is, or spoon over oatmeal or yogurt if you have a cooler.\"], \"equipment\": [\"Large mixing bowl\", \"quart-sized zip-top bags or airtight container\", \"small camp kettle or pot\"], \"servings\": \"8\", \"prep_time\": \"15\", \"cook_time\": null, \"total_time\": \"15\", \"calories\": \"210\"}"
 ---

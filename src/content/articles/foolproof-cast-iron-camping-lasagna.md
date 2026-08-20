@@ -3,7 +3,7 @@ title: "Foolproof Cast Iron Camping Lasagna"
 meta: "Make foolproof cast iron camping lasagna at the campsite. No-boil noodles, a clever foil lid, and exact fire timing for a perfect camp dinner."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/foolproof-cast-iron-camping-lasagna.webp"
+image: "/images/foolproof-cast-iron-camping-lasagna.webp"
 pubDate: "2026-07-15T04:16:00Z"
 ---
 

@@ -3,7 +3,7 @@ title: "Make-Ahead Kids Camping Themed Cupcakes"
 meta: "Learn how to make camping themed cupcakes ahead of time for your next trip. Easy tips for decorating, transporting, and keeping them fresh at the campsite."
 category: "Camp Meals"
 author: "Alisia Redson"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/make-ahead-kids-camping-themed-cupcakes.webp"
+image: "/images/make-ahead-kids-camping-themed-cupcakes.webp"
 pubDate: "2026-07-11T20:23:00Z"
 ---
 

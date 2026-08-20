@@ -3,7 +3,7 @@ title: "Hearty Easy Camping Breakfast Burrito Prep"
 meta: "Learn how to prep hearty easy camping breakfast burritos with a foolproof ratio, safe make-ahead tips, and campfire cooking method."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/hearty-easy-camping-breakfast-burrito-pr-3.webp"
+image: "/images/hearty-easy-camping-breakfast-burrito-prep.webp"
 pubDate: "2026-07-04T17:51:50Z"
 ---
 

@@ -3,7 +3,7 @@ title: "Cozy Cast Iron Camping Shepherd's Pie"
 meta: "Make a cozy cast iron camping shepherd's pie over fire or stove. Get the technique for a creamy mash top and savory filling with no oven needed."
 category: "Camp Meals"
 author: "Alisia Redson"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/cozy-cast-iron-camping-shepherd-s-pie.webp"
+image: "/images/cozy-cast-iron-camping-shepherds-pie.webp"
 pubDate: "2026-07-25T03:00:00Z"
 ---
 

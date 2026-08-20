@@ -3,7 +3,7 @@ title: "Quick Foil Packet Cajun Shrimp for Campfire or Grill"
 meta: "Make quick foil packet Cajun shrimp at the campsite. Get exact cook times, spice ratios, and tips for fire, grill, or stove. No chopping, no mess."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/quick-foil-packet-cajun-shrimp-for-campf.webp"
+image: "/images/quick-foil-packet-cajun-shrimp-for-campfire-or-grill.webp"
 pubDate: "2026-07-11T02:43:00Z"
 ---
 

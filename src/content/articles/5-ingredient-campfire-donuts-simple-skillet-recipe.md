@@ -3,7 +3,7 @@ title: "5-Ingredient Campfire Donuts: Simple Skillet Recipe"
 meta: "Learn how to make 5-ingredient campfire donuts in a cast iron skillet. Simple, golden, and perfect for a campsite breakfast or dessert."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/5-ingredient-campfire-donuts-simple-skil.webp"
+image: "/images/5-ingredient-campfire-donuts-simple-skillet-recipe.webp"
 pubDate: "2026-07-13T15:10:00Z"
 ---
 

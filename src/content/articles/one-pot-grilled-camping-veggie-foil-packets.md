@@ -3,7 +3,7 @@ title: "One-Pot Grilled Camping Veggie Foil Packets"
 meta: "Learn the technique for perfect one-pot grilled camping veggie foil packets. Exact timing, heat levels, and a simple ratio for tender, smoky vegetables every ti"
 category: "Camp Meals"
 author: "Alisia Redson"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/one-pot-grilled-camping-veggie-foil-pack.webp"
+image: "/images/one-pot-grilled-camping-veggie-foil-packets.webp"
 pubDate: "2026-07-18T06:46:00Z"
 ---
 

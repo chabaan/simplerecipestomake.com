@@ -3,7 +3,7 @@ title: "Backcountry Breakfast Burritos: Make Ahead for Easy Camp Mornings"
 meta: "Make ahead backcountry breakfast burritos for your next camping trip. Learn the technique to keep them perfect in your pack, no cooler needed."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/backcountry-breakfast-burritos-make-ahea.webp"
+image: "/images/backcountry-breakfast-burritos-make-ahead-for-easy-camp-mornings.webp"
 pubDate: "2026-07-24T21:13:00Z"
 ---
 

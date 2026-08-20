@@ -3,7 +3,7 @@ title: "Best Make Ahead Camping Meatballs (No Fridge)"
 meta: "Learn the technique for the best make ahead camping meatballs that stay safe without a fridge. No-fail ratios, packable tips, and campfire cooking method."
 category: "Camp Meals"
 author: "Alisia Redson"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/best-make-ahead-camping-meatballs-no-fri.webp"
+image: "/images/best-make-ahead-camping-meatballs-no-fridge.webp"
 pubDate: "2026-07-23T07:10:00Z"
 ---
 

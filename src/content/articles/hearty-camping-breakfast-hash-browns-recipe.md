@@ -3,7 +3,7 @@ title: "Hearty Camping Breakfast Hash Browns Recipe"
 meta: "Learn how to make hearty camping breakfast hash browns with a perfect crispy crust. Tips for camp stove, grill, or fire cooking."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/hearty-camping-breakfast-hash-browns-rec.webp"
+image: "/images/hearty-camping-breakfast-hash-browns-recipe.webp"
 pubDate: "2026-07-22T04:03:00Z"
 ---
 

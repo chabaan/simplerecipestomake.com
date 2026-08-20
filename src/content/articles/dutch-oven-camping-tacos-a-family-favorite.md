@@ -3,7 +3,7 @@ title: "Dutch Oven Camping Tacos: A Family Favorite"
 meta: "Learn to make family-favorite Dutch oven camping tacos with a foolproof layering method. Perfect for campfire or camp stove."
 category: "Family Camping Food"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/dutch-oven-camping-tacos-a-family-favori.webp"
+image: "/images/dutch-oven-camping-tacos-a-family-favorite.webp"
 pubDate: "2026-07-30T20:41:00Z"
 ---
 

@@ -3,7 +3,7 @@ title: "Best Campfire Breakfast Quesadillas"
 meta: "Learn how to make the best campfire breakfast quesadillas with crispy tortillas, scrambled eggs, and melted cheese. Easy method for fire, coals, or stove."
 category: "Camp Meals"
 author: "Alisia Redson"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/best-campfire-breakfast-quesadillas.webp"
+image: "/images/best-campfire-breakfast-quesadillas.webp"
 pubDate: "2026-07-22T03:34:00Z"
 ---
 

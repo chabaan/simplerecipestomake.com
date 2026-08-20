@@ -3,7 +3,7 @@ title: "One-Pot Camping Party Food for Kids: Easy Skillet Nachos"
 meta: "Make one-pot camping party food for kids with this skillet nacho recipe. Easy, cheesy, and perfect for a group at the campsite."
 category: "Family Camping Food"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/one-pot-camping-party-food-for-kids-easy.webp"
+image: "/images/one-pot-camping-party-food-for-kids-easy-skillet-nachos.webp"
 pubDate: "2026-07-12T02:17:00Z"
 ---
 

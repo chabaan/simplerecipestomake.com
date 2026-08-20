@@ -3,7 +3,7 @@ title: "5-Ingredient Make Ahead Camping Breakfast Casserole"
 meta: "Make this easy 5-ingredient make ahead camping breakfast casserole the night before. Perfect for busy mornings at the campsite."
 category: "Camp Meals"
 author: "Alisia Redson"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/5-ingredient-make-ahead-camping-breakfas.webp"
+image: "/images/5-ingredient-make-ahead-camping-breakfast-casserole.webp"
 pubDate: "2026-07-14T05:48:00Z"
 ---
 

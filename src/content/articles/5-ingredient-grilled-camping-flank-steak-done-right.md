@@ -3,7 +3,7 @@ title: "5-Ingredient Grilled Camping Flank Steak Done Right"
 meta: "Learn how to grill a perfect 5-ingredient camping flank steak with campfire timing, steak doneness cues, and a simple marinade ratio."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/5-ingredient-grilled-camping-flank-steak.webp"
+image: "/images/5-ingredient-grilled-camping-flank-steak-done-right.webp"
 pubDate: "2026-07-16T15:17:00Z"
 ---
 

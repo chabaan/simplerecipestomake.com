@@ -3,7 +3,7 @@ title: "No-Fuss Make Ahead Camping Oatmeal Packs"
 meta: "Learn how to make no-fuss make ahead camping oatmeal packs with a 2:1 liquid-to-oat ratio, perfect for campfire or stove. Quick, safe, and delicious."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/no-fuss-make-ahead-camping-oatmeal-packs.webp"
+image: "/images/no-fuss-make-ahead-camping-oatmeal-packs.webp"
 pubDate: "2026-07-20T07:19:00Z"
 ---
 

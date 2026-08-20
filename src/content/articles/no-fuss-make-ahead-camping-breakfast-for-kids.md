@@ -3,7 +3,7 @@ title: "No-Fuss Make Ahead Camping Breakfast for Kids"
 meta: "Make ahead camping breakfast for kids with easy prep, safe storage, and campfire cooking tips. No-fuss recipes for happy mornings outdoors."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/no-fuss-make-ahead-camping-breakfast-for.webp"
+image: "/images/no-fuss-make-ahead-camping-breakfast-for-kids.webp"
 pubDate: "2026-07-19T22:13:00Z"
 ---
 

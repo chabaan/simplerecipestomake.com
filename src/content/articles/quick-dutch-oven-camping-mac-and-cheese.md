@@ -3,7 +3,7 @@ title: "Quick Dutch Oven Camping Mac and Cheese"
 meta: "Make quick Dutch oven camping mac and cheese with a foolproof ratio and campfire timing. Creamy, one-pot, and ready in 20 minutes."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/quick-dutch-oven-camping-mac-and-cheese.webp"
+image: "/images/quick-dutch-oven-camping-mac-and-cheese.webp"
 pubDate: "2026-07-20T21:13:00Z"
 ---
 

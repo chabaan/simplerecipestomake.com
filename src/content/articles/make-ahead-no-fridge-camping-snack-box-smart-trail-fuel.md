@@ -3,7 +3,7 @@ title: "Make-Ahead No Fridge Camping Snack Box: Smart Trail Fuel"
 meta: "Build a make-ahead no fridge camping snack box with shelf-stable, packable options. Tips on ratios, storage, and food safety for the trail."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/make-ahead-no-fridge-camping-snack-box-s.webp"
+image: "/images/make-ahead-no-fridge-camping-snack-box-smart-trail-fuel.webp"
 pubDate: "2026-07-22T17:28:00Z"
 ---
 

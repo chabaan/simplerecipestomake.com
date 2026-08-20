@@ -3,7 +3,7 @@ title: "Easy Camping Granola Cups: A Family Breakfast Favorite"
 meta: "Make-ahead easy camping granola cups for a no-fuss family breakfast. My tips for crispy, portable cups that hold together at the campsite."
 category: "Family Camping Food"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/easy-camping-granola-cups-a-family-break.webp"
+image: "/images/easy-camping-granola-cups-a-family-breakfast-favorite.webp"
 pubDate: "2026-07-08T11:43:50Z"
 ---
 

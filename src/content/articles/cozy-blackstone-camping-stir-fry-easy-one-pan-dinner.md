@@ -3,7 +3,7 @@ title: "Cozy Blackstone Camping Stir Fry: Easy One-Pan Dinner"
 meta: "Learn how to make a cozy Blackstone camping stir fry with crisp veggies and tender protein. Expert tips for timing, heat levels, and campfire adaptation."
 category: "Camp Meals"
 author: "Jannah liza"
-image: "https://simplerecipestomake.com/wp-content/uploads/2026/07/cozy-blackstone-camping-stir-fry-easy-on.webp"
+image: "/images/cozy-blackstone-camping-stir-fry-easy-one-pan-dinner.webp"
 pubDate: "2026-07-16T22:25:00Z"
 ---
 
