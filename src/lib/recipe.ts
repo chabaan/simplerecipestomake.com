@@ -20,8 +20,38 @@ export interface Recipe {
 }
 
 /** Article body without the WordPress fallback recipe block. */
+/** Some imported articles hold the raw AI JSON instead of HTML: keep only its "content" field. */
+function unwrapJsonBody(body: string): string {
+	const t = body.trim();
+	if (!t.startsWith('{')) return body;
+	const start = t.search(/"content"\s*:\s*"/);
+	if (start < 0) return body;
+	const from = t.indexOf('"', t.indexOf(':', start)) + 1;
+	// The JSON is often cut off, so take everything after "content": " up to an optional closing "}.
+	const closing = t.search(/"\s*}\s*$/);
+	const end = closing > from ? closing : t.length;
+	return t
+		.slice(from, end)
+		.replace(/\\n/g, '\n')
+		.replace(/\\"/g, '"')
+		.replace(/\\\//g, '/')
+		.replace(/\\u([0-9a-fA-F]{4})/g, (_, h) => String.fromCharCode(parseInt(h, 16)));
+}
+
+/** Plain-text lines (no HTML tag) become paragraphs. */
+const wrapPlainLines = (html: string) =>
+	html
+		.split('\n')
+		.map((l) => (l.trim() && !l.trim().startsWith('<') ? `<p>${l.trim()}</p>` : l))
+		.join('\n');
+
 export function cleanBody(body: string): string {
-	return body.replace(FALLBACK_RE, '').replace(/\n{3,}/g, '\n\n').trim();
+	return wrapPlainLines(unwrapJsonBody(body.replace(FALLBACK_RE, '')))
+		// Put each top-level block on its own line (some imported articles have whole
+		// sections on one line), so pages split at headings and ads sit between paragraphs.
+		.replace(/(<\/(?:p|h[1-6]|figure|ul|ol|blockquote|table)>)[ \t]*(?=<(?:p|h[1-6]|figure|ul|ol|blockquote|table)[\s>])/g, '$1\n')
+		.replace(/\n{3,}/g, '\n\n')
+		.trim();
 }
 
 const text = (html: string) =>

@@ -13,9 +13,16 @@ const isFirst = page === 1;
 const isLast = page === total;
 const base = `/${entry.id}/`;
 const urlFor = (n: number) => (n === 1 ? base : `${base}${n}/`);
-// Ad positions inside the text: after paragraph 2, then ~1/3 and ~2/3 of the page.
-const chunks = splitAtParagraphs(parts[page - 1], [2, 0.4, 0.75]);
-const inTextAds = ['outstream', 'inarticle1', 'interscroller'] as const;
+// In-text ads: only the units that have a code, spread through the page text.
+const inTextAds = (['outstream', 'inarticle1', 'interscroller'] as const).filter(
+	(k) => siteConfig.ads.headCode && siteConfig.ads.slots[k],
+);
+const adPositions = ([[], [0.5], [2, 0.6], [2, 0.45, 0.8]] as number[][])[inTextAds.length];
+let chunks = splitAtParagraphs(parts[page - 1], adPositions);
+// Short pages: if no spot was found, put the first ad after the first paragraph.
+if (inTextAds.length && !chunks.slice(0, -1).some(Boolean)) {
+	chunks = splitAtParagraphs(parts[page - 1], [1]);
+}
 
 const recipe: any = getRecipe(entry);
 const recipeTitle = recipe?.title || entry.data.title;
@@ -93,7 +100,7 @@ const description = isFirst ? entry.data.meta : `Page ${page} of ${total}: ${ent
 			</>
 		))}
 
-		{isLast && recipe && !chunks.slice(0, -1).some(Boolean) && <AdSlot position="inarticle1" />}
+		{isLast && recipe && inTextAds.length > 0 && !chunks.slice(0, -1).some(Boolean) && <AdSlot position={inTextAds[0]} />}
 
 		{isLast && recipe && (
 			<div class="recipe-card">
