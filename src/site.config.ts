@@ -40,7 +40,7 @@ export const siteConfig = {
 
 	// Ads (HB Agency). Ad units only show once headCode (the <head> script) is filled in.
 	ads: {
-		headCode: "",
+		headCode: '<script src="https://d3u598arehftfk.cloudfront.net/prebid_hb_37888_42769.js" async></script>',
 		slots: {
 			// simplerecipestomake_In Image (336110): under the featured image
 			top: "<div id='hbagency_space_336110'></div>",
