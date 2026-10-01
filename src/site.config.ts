@@ -14,14 +14,15 @@ export const siteConfig = {
 	// The cook shown as author on every article.
 	// photo (homepage, ~600px wide) and avatar (round, ~192px) are optional: add them to public/images/.
 	author: {
-		name: "Jenna Hart",
-		photo: "",
-		avatar: "",
+		name: "Ethan Carter",
+		photo: "/images/ethan-carter-600.webp",
+		photoLarge: "/images/ethan-carter.webp",
+		avatar: "/images/ethan-carter-avatar.webp",
 		url: "/about-simple-recipes-to-make/",
 		shortBio:
-			"Camping mom and campfire cook. Jenna shares simple, tested camp meals that are easy to prep at home and cook outdoors with the whole family.",
+			"Home cook raised in his grandmother's kitchen. Ethan shares simple, tested recipes, from campfire meals to classic American comfort food, made for real families.",
 		welcome:
-			"<p>I'm a mom of three who spends every free weekend at a campsite. Over the years I've learned that great camp food doesn't need fancy gear, just <strong>simple, tested recipes</strong> you can prep at home and finish over the fire, on a grill or on a camp stove.</p><p>Every recipe comes with clear steps, honest timings, and a <strong>free download</strong> so you can take it on your next trip, even without signal.</p>",
+			"<p>I learned to cook beside my grandmother Margaret, who always said: <em>\u201cAnyone can follow a recipe. The real secret is cooking with a little heart.\u201d</em></p><p>Here I share <strong>simple, tested recipes</strong> with everyday ingredients and clear steps, whether you're cooking at home or around the campfire. Every recipe comes with a <strong>free download</strong> so you can keep it forever.</p>",
 	},
 
 	// Category fixes: articles that came in without a proper category
@@ -64,5 +65,5 @@ export const siteConfig = {
 	},
 
 	// Footer
-	footerText: "© 2026 Simple Recipes to Make — Recipes by Jenna Hart",
+	footerText: "© 2026 Simple Recipes to Make — Recipes by Ethan Carter",
 };

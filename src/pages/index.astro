@@ -20,7 +20,7 @@ const totalArticles = sorted.length;
 		<section class={`welcome${siteConfig.author.photo ? '' : ' no-photo'}`}>
 			{siteConfig.author.photo && (
 				<div class="welcome-photo">
-					<img src={siteConfig.author.photo} alt={siteConfig.author.name} width="600" height="454" fetchpriority="high" decoding="async" />
+					<img src={siteConfig.author.photo} srcset={siteConfig.author.photoLarge ? `${siteConfig.author.photo} 600w, ${siteConfig.author.photoLarge} 1000w` : undefined} sizes="(max-width: 760px) 92vw, 480px" alt={siteConfig.author.name} width="600" height="510" fetchpriority="high" decoding="async" />
 				</div>
 			)}
 			<div class="welcome-text">

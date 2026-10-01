@@ -6,17 +6,59 @@ title: "About Simple Recipes to Make"
 
 
 
-<h2 class="wp-block-heading">Meet Jenna Hart</h2>
+<h2 class="wp-block-heading">The Story Behind Ethan Carter</h2>
 
-<p>Hi, I'm Jenna, the cook behind Simple Recipes to Make. I'm a mom of three, and our family's favorite place to be is a campsite: a tent, a campfire, and a cooler full of food I prepped at home the night before.</p>
+<figure class="about-hero"><img src="/images/ethan-carter-portrait.webp" alt="Ethan Carter in a white chef jacket and black apron" width="700" height="1049" loading="lazy" decoding="async" /></figure>
 
-<p>When we started camping, I made every mistake: forgotten ingredients, burnt pans, dinners that took two hours over a stubborn fire. Little by little I worked out what actually works outdoors: meals you can mostly prepare at home, one-pan dinners, foil packets, and simple tricks that make the fire do the work.</p>
+<h3>A Boy, His Grandmother, and the Smell of Homemade Food</h3>
 
-<p>Every recipe here is one I cook, test and adjust until it works with real camping gear, whether that's a campfire, a grill or a small camp stove. I write the steps the way I'd explain them to a friend at the next campsite: clear, honest and without fuss.</p>
+<p>Ethan Carter grew up in a small American town, where weekends meant family gatherings, long conversations around the dinner table, and the comforting smell of something delicious cooking at home.</p>
 
-<p>Thank you for being here. I hope these recipes make your next trip a little easier and a lot tastier.</p>
+<p>Some of his happiest childhood memories were made beside his grandmother, Margaret, who believed that food had a special way of bringing people closer.</p>
 
-<p><em>See you around the campfire,<br />Jenna</em> 🏕️</p>
+<p>She wasn't a famous chef. She didn't own a restaurant or follow complicated recipes. She cooked with patience, intuition, and whatever fresh ingredients she had on hand.</p>
+
+<p>Ethan would stand beside her, watching as she kneaded dough, seasoned chicken, stirred soups, and turned simple ingredients into meals everyone looked forward to.</p>
+
+<p>One afternoon, she handed him a wooden spoon and smiled.</p>
+
+<blockquote><p>"Anyone can follow a recipe, Ethan. The real secret is cooking with a little heart."</p></blockquote>
+
+<p>He never forgot those words.</p>
+
+<h3>From a Small Kitchen to a Big Dream</h3>
+
+<p>As Ethan grew older, his curiosity about food grew with him. He began experimenting with family recipes, learning new techniques, and discovering how small changes could transform an ordinary meal into something memorable.</p>
+
+<p>While his friends spent their free time on other hobbies, Ethan was often testing burger recipes, perfecting homemade sauces, or trying to recreate the desserts he remembered from childhood.</p>
+
+<p>His first attempts weren't always successful. Some meals were too salty, some cakes came out of the oven completely wrong, and a few experiments ended with everyone ordering pizza.</p>
+
+<p>But every mistake taught him something new.</p>
+
+<p>Eventually, Ethan decided to pursue cooking seriously. He spent years learning the craft, exploring different flavors, and developing a style that combined traditional American comfort food with modern, practical cooking.</p>
+
+<h3>The Philosophy Behind His Food</h3>
+
+<p>Ethan believes that great food doesn't have to be expensive, complicated, or reserved for special occasions.</p>
+
+<p>A good meal should fit into everyday life. It should bring comfort after a long day, create excitement on a weekend, and give families another reason to sit together.</p>
+
+<p>That's why his favorite recipes focus on approachable ingredients, clear instructions, satisfying flavors, and little details that make a big difference.</p>
+
+<p>For Ethan, cooking has never been just about what's on the plate. It's about the people sitting around it.</p>
+
+<h3>A New Chapter: Sharing Recipes With the World</h3>
+
+<p>Today, Ethan Carter represents a new generation of home-cooking inspiration. Through his recipes and food stories, he aims to help people feel more confident in their own kitchens.</p>
+
+<p>From crispy fried chicken and creamy pasta to fluffy pancakes, homemade burgers, and classic American desserts, his goal is to make every recipe feel achievable.</p>
+
+<p>And whenever someone asks him what makes a meal truly special, his answer remains the same:</p>
+
+<blockquote><p>"It's not about making the perfect dish. It's about making something people remember."</p></blockquote>
+
+<p><em>Welcome to Ethan Carter's world — where every recipe has a story, and every meal is an opportunity to bring people together.</em></p>
 
 <h2 class="wp-block-heading">Who We Are</h2>
 

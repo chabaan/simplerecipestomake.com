@@ -167,3 +167,6 @@ article.post .content img{max-width:100%;height:auto;}
 .author-initial{width:96px;height:96px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:var(--coffee);color:#fff;font-size:2.4rem;font-weight:700;border:3px solid var(--accent);}
 .welcome.no-photo{grid-template-columns:1fr;max-width:820px;text-align:center;}
 .welcome.no-photo .welcome-actions{justify-content:center;}
+article.post blockquote{margin:22px 0;padding:14px 20px;border-left:4px solid var(--accent);background:#fff;border-radius:0 12px 12px 0;font-style:italic;color:var(--coffee);}
+article.post blockquote p{margin:0;}
+@media (min-width:761px){.about-hero img[src*="portrait"]{max-width:420px;margin:0 auto;}}
