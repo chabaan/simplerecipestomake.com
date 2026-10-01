@@ -1,18 +1,20 @@
 ---
 import '../styles/global.css';
-import { getCollection } from 'astro:content';
+import { getArticles } from '../lib/articles';
 import { siteConfig } from '../site.config';
+import AdSlot from '../components/AdSlot.astro';
 
 interface Props {
 	title: string;
 	description?: string;
 	image?: string;
+	isHome?: boolean;
 }
-const { title, description = siteConfig.defaultDescription, image } = Astro.props;
+const { title, description = siteConfig.defaultDescription, image, isHome = false } = Astro.props;
 const ogImage = image ? new URL(image, Astro.site).toString() : undefined;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
-const articles = await getCollection('articles');
+const articles = await getArticles();
 const categories = [...new Set(articles.map((a) => a.data.category).filter(Boolean))];
 ---
 <!DOCTYPE html>
@@ -34,6 +36,11 @@ const categories = [...new Set(articles.map((a) => a.data.category).filter(Boole
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
 		{ogImage && <meta name="twitter:image" content={ogImage} />}
+		{siteConfig.ads.headCode && <Fragment set:html={siteConfig.ads.headCode} />}
+		<slot name="head" />
+		{siteConfig.analytics?.goatcounterCode && (
+			<script is:inline async data-goatcounter={`https://${siteConfig.analytics.goatcounterCode}.goatcounter.com/count`} src="https://gc.zgo.at/count.js"></script>
+		)}
 	</head>
 	<body>
 		<header class="site-header">
@@ -54,10 +61,11 @@ const categories = [...new Set(articles.map((a) => a.data.category).filter(Boole
 			</button>
 		</header>
 		<div class="hero">
-			<h1>{siteConfig.name}</h1>
+			{isHome ? <h1>{siteConfig.name}</h1> : <div class="hero-title">{siteConfig.name}</div>}
 			<p>{siteConfig.tagline}</p>
 		</div>
 		<slot />
+		<AdSlot position="sticky" />
 		<footer class="site-footer">
 			<nav class="footer-nav">
 				<a href="/about-simple-recipes-to-make/">About</a>

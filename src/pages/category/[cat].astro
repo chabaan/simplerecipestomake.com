@@ -1,21 +1,23 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { getCollection } from 'astro:content';
+import { getArticles, getRedirects, catSlug } from '../../lib/articles';
+import Redirect from '../../components/Redirect.astro';
+import { siteConfig } from '../../site.config';
 
 export async function getStaticPaths() {
-	function catSlug(cat) {
-		return cat.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-	}
-	const articles = await getCollection('articles');
-	const categories = [...new Set(articles.map((a) => a.data.category).filter(Boolean))];
-	return categories.map((cat) => ({
-		params: { cat: catSlug(cat) },
-		props: { categoryName: cat },
-	}));
+	const articles = await getArticles();
+	const categories = [...new Set(articles.map((a) => a.data.category).filter(Boolean))] as string[];
+	const redirects = await getRedirects();
+	return [
+		...categories.map((cat) => ({ params: { cat: catSlug(cat) }, props: { categoryName: cat } })),
+		...[...redirects]
+			.filter(([from]) => from.startsWith('category/'))
+			.map(([from, to]) => ({ params: { cat: from.slice('category/'.length) }, props: { redirectTo: to } })),
+	];
 }
 
-const { categoryName } = Astro.props;
-const articles = await getCollection('articles');
+const { categoryName, redirectTo } = Astro.props as any;
+const articles = await getArticles();
 const filtered = articles
 	.filter((a) => a.data.category === categoryName)
 	.sort((a, b) => {
@@ -24,6 +26,7 @@ const filtered = articles
 		return db - da;
 	});
 ---
+{redirectTo ? <Redirect to={redirectTo} /> : (
 <Base title={`${categoryName} — Articles`}>
 	<main>
 		<h2 class="section-title">{categoryName} ({filtered.length})</h2>
@@ -37,8 +40,8 @@ const filtered = articles
 							<h3>{a.data.title}</h3>
 							<p>{(a.data.meta ?? '').slice(0, 100)}...</p>
 							<div class="card-meta">
-								<span class="avatar">{(a.data.author ?? 'S')[0]}</span>
-								<span class="author-name">{a.data.author ?? 'Staff'}</span>
+								{siteConfig.author.avatar ? <img class="avatar-img" src={siteConfig.author.avatar} alt="" width="28" height="28" loading="lazy" /> : <span class="avatar">{siteConfig.author.name[0]}</span>}
+								<span class="author-name">{a.data.author}</span>
 								{a.data.pubDate && (
 									<time datetime={new Date(a.data.pubDate).toISOString()}>
 										{new Date(a.data.pubDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
@@ -52,3 +55,4 @@ const filtered = articles
 		</div>
 	</main>
 </Base>
+)}

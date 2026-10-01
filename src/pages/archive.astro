@@ -1,8 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
-import { getCollection } from 'astro:content';
+import { getArticles } from '../lib/articles';
 
-const articles = await getCollection('articles');
+const articles = await getArticles();
 const sorted = articles.sort((a, b) => {
 	const da = a.data.pubDate ? new Date(a.data.pubDate).getTime() : 0;
 	const db = b.data.pubDate ? new Date(b.data.pubDate).getTime() : 0;

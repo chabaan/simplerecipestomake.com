@@ -1,0 +1,180 @@
+---
+import Base from '../layouts/Base.astro';
+import AdSlot from './AdSlot.astro';
+import AuthorBox from './AuthorBox.astro';
+import { siteConfig } from '../site.config';
+import { splitAtParagraphs } from '../lib/split';
+import { getRecipe } from '../lib/recipe';
+
+interface Props { entry: any; parts: string[]; page: number } // page is 1-based
+const { entry, parts, page } = Astro.props;
+const total = parts.length;
+const isFirst = page === 1;
+const isLast = page === total;
+const base = `/${entry.id}/`;
+const urlFor = (n: number) => (n === 1 ? base : `${base}${n}/`);
+// Ad positions inside the text: after paragraph 2, then ~1/3 and ~2/3 of the page.
+const chunks = splitAtParagraphs(parts[page - 1], [2, 0.4, 0.75]);
+const inTextAds = ['outstream', 'inarticle1', 'interscroller'] as const;
+
+const recipe: any = getRecipe(entry);
+const recipeTitle = recipe?.title || entry.data.title;
+const hasStats = recipe && (recipe.prep_time || recipe.cook_time || recipe.total_time || recipe.servings || recipe.calories);
+
+// Recipe schema: a summary on page 1 (what is visible there: times, servings, ingredients),
+// and the full recipe with instructions on the page that shows the recipe card.
+let recipeSchema = null;
+if (recipe && (isFirst || isLast)) {
+	recipeSchema = {
+		"@context": "https://schema.org/",
+		"@type": "Recipe",
+		"name": recipeTitle,
+		"image": entry.data.image ? [`https://${siteConfig.domain}${entry.data.image}`] : undefined,
+		"author": { "@type": "Person", "name": siteConfig.author.name, "url": `https://${siteConfig.domain}${siteConfig.author.url}` },
+		"datePublished": entry.data.pubDate ? new Date(entry.data.pubDate).toISOString() : undefined,
+		"description": entry.data.meta,
+		"recipeCategory": entry.data.category,
+		"recipeIngredient": recipe.ingredients,
+		"recipeInstructions": isLast ? (recipe.instructions || []).map((step: string) => ({ "@type": "HowToStep", "text": step })) : undefined,
+		"prepTime": recipe.prep_time ? `PT${recipe.prep_time}M` : undefined,
+		"cookTime": recipe.cook_time ? `PT${recipe.cook_time}M` : undefined,
+		"totalTime": recipe.total_time ? `PT${recipe.total_time}M` : undefined,
+		"recipeYield": recipe.servings ? `${recipe.servings} servings` : undefined,
+		"nutrition": recipe.calories ? { "@type": "NutritionInformation", "calories": `${recipe.calories} calories` } : undefined,
+	};
+}
+
+const title = isFirst ? entry.data.title : `${entry.data.title} (Page ${page} of ${total})`;
+const description = isFirst ? entry.data.meta : `Page ${page} of ${total}: ${entry.data.meta ?? ''}`;
+---
+<Base title={title} description={description} image={entry.data.image}>
+	{recipeSchema && <script slot="head" type="application/ld+json" set:html={JSON.stringify(recipeSchema)} />}
+	<article class="post">
+		<a class="back" href="/">&larr; Back to home</a>
+		{isFirst && <img class="featured" src={entry.data.image} alt={entry.data.title} width="640" height="480" fetchpriority="high" onerror="this.style.display='none'" />}
+		<div class="cat">{entry.data.category}</div>
+		<h1>{entry.data.title}</h1>
+		<div class="meta">
+			By <a href={siteConfig.author.url}>{siteConfig.author.name}</a>
+			{total > 1 && <span class="page-indicator"> · Page {page} of {total}</span>}
+		</div>
+
+		<AdSlot position="top" />
+
+		{isFirst && recipe && total > 1 && (
+			<aside class="recipe-glance" aria-label="Recipe at a glance">
+				<div class="glance-head">
+					<span class="glance-kicker">Recipe at a glance</span>
+					<strong>{recipeTitle}</strong>
+				</div>
+				{hasStats && (
+					<div class="recipe-stats">
+						{recipe.prep_time && <div class="stat"><span class="label">Prep</span><span class="value">{recipe.prep_time} min</span></div>}
+						{recipe.cook_time && <div class="stat"><span class="label">Cook</span><span class="value">{recipe.cook_time} min</span></div>}
+						{recipe.total_time && <div class="stat"><span class="label">Total</span><span class="value">{recipe.total_time} min</span></div>}
+						{recipe.servings && <div class="stat"><span class="label">Servings</span><span class="value">{recipe.servings}</span></div>}
+						{recipe.calories && <div class="stat"><span class="label">Calories</span><span class="value">{recipe.calories}</span></div>}
+					</div>
+				)}
+				{recipe.ingredients?.length > 0 && (
+					<details class="glance-ingredients">
+						<summary>What you'll need ({recipe.ingredients.length} ingredients)</summary>
+						<ul>{recipe.ingredients.map((ing: string) => <li>{ing}</li>)}</ul>
+					</details>
+				)}
+				<p class="glance-note">📥 Step-by-step instructions and the free download are on page {total}.</p>
+			</aside>
+		)}
+
+		{chunks.map((html, i) => (
+			<>
+				{html && <div class="content" set:html={html} />}
+				{html && i < inTextAds.length && <AdSlot position={inTextAds[i]} />}
+			</>
+		))}
+
+		{isLast && recipe && !chunks.slice(0, -1).some(Boolean) && <AdSlot position="inarticle1" />}
+
+		{isLast && recipe && (
+			<div class="recipe-card">
+				<h2 id="recipe">Recipe: {recipeTitle}</h2>
+				{hasStats && <div class="recipe-stats">
+					{recipe.prep_time && <div class="stat"><span class="label">Prep Time</span><span class="value">{recipe.prep_time} min</span></div>}
+					{recipe.cook_time && <div class="stat"><span class="label">Cook Time</span><span class="value">{recipe.cook_time} min</span></div>}
+					{recipe.total_time && <div class="stat"><span class="label">Total Time</span><span class="value">{recipe.total_time} min</span></div>}
+					{recipe.servings && <div class="stat"><span class="label">Servings</span><span class="value">{recipe.servings}</span></div>}
+					{recipe.calories && <div class="stat"><span class="label">Calories</span><span class="value">{recipe.calories}</span></div>}
+				</div>}
+				{recipe.equipment?.length > 0 && (
+					<div class="recipe-section"><h3>Equipment</h3><ul>{recipe.equipment.map((eq: string) => <li>{eq}</li>)}</ul></div>
+				)}
+				{recipe.ingredients?.length > 0 && (
+					<div class="recipe-section"><h3>Ingredients</h3><ul>{recipe.ingredients.map((ing: string) => <li>{ing}</li>)}</ul></div>
+				)}
+				{recipe.instructions?.length > 0 && (
+					<div class="recipe-section"><h3>Instructions</h3><ol>{recipe.instructions.map((s: string) => <li>{s}</li>)}</ol></div>
+				)}
+				{recipe.notes && <div class="recipe-section"><h3>Notes</h3><p>{recipe.notes}</p></div>}
+				<div class="recipe-download">
+					<button type="button" class="dl-btn" data-action="pdf">
+						<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+						Download Recipe (PDF)
+					</button>
+					<button type="button" class="dl-btn dl-alt" data-action="txt" data-file={`${entry.id}.txt`}>
+						Save as Text
+					</button>
+				</div>
+			</div>
+		)}
+
+		{isLast && <AuthorBox />}
+
+		<AdSlot position="inarticle2" />
+
+		{total > 1 && (
+			<nav class="part-nav" aria-label="Article pages">
+				{!isLast && (
+					<a class="next-btn" href={urlFor(page + 1)} rel="next">
+						{page + 1 === total && recipe ? 'Next: Get the Full Recipe' : 'Continue Reading'} &rarr;
+					</a>
+				)}
+				<div class="part-links">
+					{page > 1 && <a href={urlFor(page - 1)} rel="prev">&larr; Previous</a>}
+					{Array.from({ length: total }, (_, i) => i + 1).map((n) =>
+						n === page ? <span class="current">{n}</span> : <a href={urlFor(n)}>{n}</a>
+					)}
+				</div>
+			</nav>
+		)}
+	</article>
+	<script>
+		document.querySelectorAll<HTMLButtonElement>('.dl-btn').forEach((btn) => {
+			btn.addEventListener('click', () => {
+				const card = btn.closest('.recipe-card') as HTMLElement | null;
+				if (!card) return;
+				if (btn.dataset.action === 'pdf') {
+					document.body.classList.add('printing-recipe');
+					window.print();
+					setTimeout(() => document.body.classList.remove('printing-recipe'), 500);
+					return;
+				}
+				const lines: string[] = [];
+				card.querySelectorAll('h2, .stat, h3, li').forEach((el) => {
+					const text = (el as HTMLElement).innerText.replace(/\s*\n\s*/g, ': ').trim();
+					if (el.tagName === 'H2') lines.push(text.toUpperCase(), '');
+					else if (el.tagName === 'H3') lines.push('', text.toUpperCase());
+					else if (el.classList.contains('stat')) lines.push(text);
+					else if (el.parentElement?.tagName === 'OL') lines.push(`${[...el.parentElement.children].indexOf(el) + 1}. ${text}`);
+					else lines.push(`- ${text}`);
+				});
+				lines.push('', `Recipe from ${location.href}`);
+				const blob = new Blob([lines.join('\n')], { type: 'text/plain;charset=utf-8' });
+				const a = document.createElement('a');
+				a.href = URL.createObjectURL(blob);
+				a.download = btn.dataset.file || 'recipe.txt';
+				a.click();
+				URL.revokeObjectURL(a.href);
+			});
+		});
+	</script>
+</Base>

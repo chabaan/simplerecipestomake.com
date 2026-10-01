@@ -1,0 +1,13 @@
+---
+import { siteConfig } from '../site.config';
+interface Props { position: keyof typeof siteConfig.ads.slots }
+const { position } = Astro.props;
+// Ad units only render once the ad network's script is installed.
+const code = siteConfig.ads.headCode ? siteConfig.ads.slots[position] : '';
+---
+{code && (
+	<aside class={`ad-slot ad-${Astro.props.position}`} aria-label="Advertisement">
+		{position !== 'top' && <span class="ad-label">Advertisement</span>}
+		<Fragment set:html={code} />
+	</aside>
+)}

@@ -1,0 +1,19 @@
+---
+import { siteConfig } from '../site.config';
+interface Props { to: string }
+const { to } = Astro.props;
+const url = `https://${siteConfig.domain}${to}`;
+---
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Redirecting…</title>
+		<link rel="canonical" href={url} />
+		<meta name="robots" content="noindex" />
+		<meta http-equiv="refresh" content={`0; url=${to}`} />
+	</head>
+	<body>
+		<p>This page has moved: <a href={to}>{url}</a></p>
+	</body>
+</html>

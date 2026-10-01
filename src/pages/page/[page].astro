@@ -1,10 +1,10 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { getCollection } from 'astro:content';
+import { getArticles } from '../../lib/articles';
 import { siteConfig } from '../../site.config';
 
 export async function getStaticPaths({ paginate }) {
-	const articles = await getCollection('articles');
+	const articles = await getArticles();
 	const sorted = articles.sort((a, b) => {
 		const da = a.data.pubDate ? new Date(a.data.pubDate).getTime() : 0;
 		const db = b.data.pubDate ? new Date(b.data.pubDate).getTime() : 0;
@@ -38,8 +38,8 @@ function pageUrl(url) {
 							<h3>{a.data.title}</h3>
 							<p>{(a.data.meta ?? '').slice(0, 100)}...</p>
 							<div class="card-meta">
-								<span class="avatar">{(a.data.author ?? 'S')[0]}</span>
-								<span class="author-name">{a.data.author ?? 'Staff'}</span>
+								{siteConfig.author.avatar ? <img class="avatar-img" src={siteConfig.author.avatar} alt="" width="28" height="28" loading="lazy" /> : <span class="avatar">{siteConfig.author.name[0]}</span>}
+								<span class="author-name">{a.data.author}</span>
 								{a.data.pubDate && (
 									<time datetime={new Date(a.data.pubDate).toISOString()}>
 										{new Date(a.data.pubDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}

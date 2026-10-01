@@ -6,6 +6,18 @@ title: "About Simple Recipes to Make"
 
 
 
+<h2 class="wp-block-heading">Meet Jenna Hart</h2>
+
+<p>Hi, I'm Jenna, the cook behind Simple Recipes to Make. I'm a mom of three, and our family's favorite place to be is a campsite: a tent, a campfire, and a cooler full of food I prepped at home the night before.</p>
+
+<p>When we started camping, I made every mistake: forgotten ingredients, burnt pans, dinners that took two hours over a stubborn fire. Little by little I worked out what actually works outdoors: meals you can mostly prepare at home, one-pan dinners, foil packets, and simple tricks that make the fire do the work.</p>
+
+<p>Every recipe here is one I cook, test and adjust until it works with real camping gear, whether that's a campfire, a grill or a small camp stove. I write the steps the way I'd explain them to a friend at the next campsite: clear, honest and without fuss.</p>
+
+<p>Thank you for being here. I hope these recipes make your next trip a little easier and a lot tastier.</p>
+
+<p><em>See you around the campfire,<br />Jenna</em> 🏕️</p>
+
 <h2 class="wp-block-heading">Who We Are</h2>
 
 

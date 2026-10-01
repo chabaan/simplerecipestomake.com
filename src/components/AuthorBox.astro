@@ -1,0 +1,17 @@
+---
+import { siteConfig } from '../site.config';
+const a = siteConfig.author;
+---
+<aside class="author-box">
+	{a.avatar ? (
+		<img src={a.avatar} alt={a.name} width="96" height="96" loading="lazy" />
+	) : (
+		<span class="author-initial" aria-hidden="true">{a.name[0]}</span>
+	)}
+	<div>
+		<div class="author-kicker">About the cook</div>
+		<div class="author-name">{a.name}</div>
+		<p>{a.shortBio}</p>
+		<a href={a.url}>Read {a.name.split(' ')[0]}'s story &rarr;</a>
+	</div>
+</aside>
